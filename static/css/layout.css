@@ -1,0 +1,24 @@
+
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+#outer-container {
+	height: 100%;
+	width: 100%;
+	display: table;
+	vertical-align: middle;
+}
+
+
+#container {
+	position: relative;
+	vertical-align: middle;
+	display: table-cell;
+}
+
+#inner {
+	margin-left: auto;
+	margin-right: auto;
+}

@@ -1,0 +1,49 @@
+
+/*Full width background*/
+/*html { 
+  background: url(file:///C:/Users/Daniel%20Bultas/Google%20Drive/%23%20Projects/%23%20Media%20Player%20for%20Google%20Drive/DriveTune/coming%20soon%20web/img/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}*/
+
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+h1 {
+	font-size: 3em;
+	font-weight: 800;
+	margin-bottom: 1em;
+}
+
+.wrapper {
+	height: 100%;
+	width: 100%;
+	display: table;
+	vertical-align: middle;
+
+	padding: 5em 0;
+	background: #F7F7F7;
+}
+
+.box-container {
+	position: relative;
+	vertical-align: middle;
+	display: table-cell;
+}
+
+.box-content {
+	margin-left: auto;
+	margin-right: auto;
+
+	opacity: 0.97;
+	max-width: 500px;
+	background: #fff;
+	padding: 2em 3em;
+	border: 1px solid #E2E2E2;
+	border-radius: 5px;
+
+}
