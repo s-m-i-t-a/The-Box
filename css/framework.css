@@ -15,13 +15,6 @@ h1,h2,h3,h4,h5,h6 {
 img {width: 100%;}
 
 
-/* Main */
-.container {
-    max-width: 900px;
-    margin: auto;
-    padding: 2em;
-}
-
 /*Snippets*/
 
 .text-center {text-align: center;}
@@ -36,7 +29,6 @@ img {width: 100%;}
 
 .hidden {display: none;}
 
-/* FORMS */
 
 /*give clickable elements pointer*/
 a[href], input[type='submit'], input[type='image'], label[for], select, button, .pointer {
@@ -74,35 +66,6 @@ input:focus, textarea:focus {
     border-color: #C9C9C9;   
     }  
 
-.form-group:hover input {border-color: #C9C9C9; } /*pokud je mys nad celou skupinou, zvyrazni se input*/
-  
-.form {
-	margin-top: 2em;
-}
-
-.form-group {
-	padding-bottom: 1em;
-}
-
-.form-group > div {
-	min-height: 2.3em;
-}
-
-label {   
-    margin: 0 0.5em; 
-    opacity: 0.8;     
-    }  
-
-.form-group:hover label {opacity: 1;}
-.form-group:active label {opacity: 1;}
-
-/*.form input[type="text"], .form textarea, .form select {   
-    margin: 0.5em 0;      
-    } */
-
-.help-block {
-	font-size: 0.7em; 
-}
 
 /*Tables*/
 .table {
@@ -140,29 +103,6 @@ ul.inline li {
 }
 
 
-/*Buttons*/
-.button, .submit input, a.button {  
-    width: auto;
-    text-align: center;
-    padding: 0.5em 1.5em;   
-    border: 0;    
-    background-color: #79AF27;
-    color: #fff;
-    border-radius: 0.3em;
-    border: none;
-    text-decoration: none;
-    }  
-
-    .button:hover {
-    	background-color: #70A125;
-    	text-decoration: none;
-    }
-
-    .submit input {
-    	margin-top: 0.6em;
-    }
-
-
 /*Navigace*/
 ul.nav {
 	padding: 0;
@@ -173,17 +113,4 @@ ul.nav li {
 	padding-left: 1.5em;
 	list-style-type: none;
 	float: right;
-}
-
-/*Section divider*/
-
-.section-divider {
-    background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #FAFAFA), color-stop(50%, #D9D9D9), color-stop(100%, #FAFAFA));
-    background-image: -webkit-linear-gradient(left, #FAFAFA, #D9D9D9, #FAFAFA);
-    background-image: -moz-linear-gradient(left, #fafafa, #d9d9d9, #fafafa);
-    background-image: -o-linear-gradient(left, #fafafa, #d9d9d9, #fafafa);
-    background-image: linear-gradient(left, #fafafa, #d9d9d9, #fafafa);
-    height: 1px;
-    width: 100%;
-    border: none;
 }
