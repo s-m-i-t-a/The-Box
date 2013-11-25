@@ -1,0 +1,8 @@
+box_content:
+  type: markdown
+  text: Box content
+  help: This is your content area. You can use Markdown syntax. 
+css_style:
+  type: css
+  text: Custom css
+  help: Customize your box with custom CSS.
